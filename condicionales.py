@@ -15,3 +15,10 @@ d = 4
 
 resultado = not (a ** 2 -b > c ** 2 ) and (( a * 3 + c) / 2 > d)or True
 print (resultado)
+
+#EJEMPLO CONDICIONAL
+a = 6
+b = 3
+c = 7
+d = 4
+e = 5
