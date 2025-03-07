@@ -26,3 +26,14 @@ JERARQUIA DEFINITIVA DE OPERACIONES
 7.              AND
 8.              TRUE
 '''
+'''
+NOTA: Si hay operaciones en el mismo nivel de jerarquia se empieza siempre de izquierda
+'''
+op1 = False
+op2 = True
+op3 = False
+op4 = True
+
+Resultado = not op1 and (op2 or op3 and not op1) and not op4 
+
+print (Resultado)
